@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+.App {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    to left,
+    rgba(34, 195, 120, 1),
+    rgba(237, 163, 216, 1)
+  );
+}
+
+/** Heading one **/
+h1 {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+/** Conatiner **/
+.container {
+  margin: 0 auto;
+  max-width: 570px;
+  max-height: 100%;
+}
+
+/** list-singers **/
+ul {
+  margin-top: 2rem;
+}
+
+hr {
+  margin-top: 2rem;
+  box-shadow: 1px 1px black;
+  width: 80%;
+}
+
+.li-list {
+  cursor: pointer;
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 0.45rem auto;
+  float: left;
+  padding: 0.25rem;
+  max-width: 28vw;
+  margin-left: 1rem;
+}
+
+.li-list:hover {
+  background-color: black;
+  color: white;
+}
+
+/** list-song**/
+.songs-list {
+  max-width: 650px;
+  margin: 2.5rem auto;
+}
+
+.song:hover {
+  background-color: #c8c2bf;
+}
+
+.song {
+  max-width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.song p {
+  padding: 0.1rem;
+  margin: 0.4rem;
+}
+
+.song-name {
+  font-size: larger;
+}
+/**link**/
+a {
+  text-decoration: none;
+}
