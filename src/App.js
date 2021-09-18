@@ -104,9 +104,10 @@ export default function App() {
             Lata Mangeshkar
           </li>
         </ul>
-        <hr></hr>
       </div>
+
       <div className="songs-list">
+        <hr></hr>
         {songs.map((song) => {
           return (
             <div className="song">
